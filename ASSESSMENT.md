@@ -3,7 +3,7 @@
 This is an assessment homework for DevOps candidates.
 
 Please read
-this document thoroughly and don't hesitate to contact us to devops@travelperk.com if you have any
+this document thoroughly and don't hesitate to contact us to devops@REDACTED.com if you have any
 doubts.
 
 ## Prepare the assessment
@@ -30,7 +30,7 @@ In a virtualenv, run:
 ### Deploy the service on AWS Fargate
 
    * Dockerize the service
-   * Connect to https://travelperk-candidates.signin.aws.amazon.com/console and
+   * Connect to https://REDACTED-candidates.signin.aws.amazon.com/console and
      sign in with the credentials you got from our team and deploy a cluster
      with a single service and 2 replicas of this application (i.e.  with one
      task definition and two running tasks).
@@ -59,7 +59,7 @@ the service you have deployed.
   * When doing the CI/CD part: DON'T CREATE PULL REQUEST ON THE ORIGINAL
     REPOSITORY. This is the default behavior in GitHub and it will expose your
     work to others!
-  * For the same reason, please avoid calling your repo `travelperk-whatever`.
+  * For the same reason, please avoid calling your repo `REDACTED-whatever`.
   * You may not have time to finish everything in the allocated time. This is fine. If it takes more
     than 4 hours you can leave the work as it is and write down what your next
     steps would be. If you want to spend two days or a week, up to you. But we
@@ -71,4 +71,4 @@ the service you have deployed.
 
  **Many thanks for your time and good luck!**
 
-[1]: https://github.com/travelperk/devops-assessment-terraform
+[1]: https://github.com/REDACTED/devops-assessment-terraform
