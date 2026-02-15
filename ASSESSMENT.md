@@ -1,6 +1,6 @@
 # DevOps Assessment Homework
 
-This is TravelPerk's assessment homework for DevOps candidates.
+This is an assessment homework for DevOps candidates.
 
 Please read
 this document thoroughly and don't hesitate to contact us to devops@travelperk.com if you have any
