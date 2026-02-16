@@ -3,6 +3,7 @@ from flask import Flask
 
 
 def create_app():
+    a = "d"
     app = Flask(__name__)
 
     try:
