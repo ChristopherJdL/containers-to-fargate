@@ -2,7 +2,7 @@ name: On PR run tests
 run-name: "On PR: Run tests"
 on: pull_request
 jobs:
-  OnPRRunTests:
+  Run-Tests:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
