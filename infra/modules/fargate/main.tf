@@ -37,7 +37,7 @@ resource "aws_ecs_service" "ctf_service" {
     
     network_configuration {
         security_groups = [aws_security_group.cf.id]
-        subnets = aws_subnet.private.*.id
+        subnets = aws_subnet.public.*.id
         assign_public_ip = true
     }
 
