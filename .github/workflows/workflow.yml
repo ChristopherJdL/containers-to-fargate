@@ -45,7 +45,10 @@ jobs:
             christopherjdl/containers-to-fargate:latest
             christopherjdl/containers-to-fargate:${{ github.sha }}
           platforms: linux/amd64
-
+          with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
         with:
