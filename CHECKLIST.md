@@ -1,7 +1,7 @@
-## Deploy
+## Deploy ✅
 - Dockerize ✅
-- Deploy the service to AWS Fargate
-    - Terraform code
+- Deploy the service to AWS Fargate ✅
+    - Terraform code ✅
 
 ## Create CI/CD
 Flow:
