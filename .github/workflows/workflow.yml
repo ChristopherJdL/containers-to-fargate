@@ -3,7 +3,7 @@ run-name: "On merge: Deploy"
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   OnMergeDeploy:
     runs-on: ubuntu-latest
