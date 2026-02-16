@@ -38,15 +38,19 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-
+        working-directory: ./infra
+        
       - name: Terraform Format
         run: terraform fmt -check
+        working-directory: ./infra
 
       - name: Terraform Validate
         run: terraform validate
+        working-directory: ./infra
 
       - name: Terraform Plan
         run: terraform plan -no-color -out=tfplan
+        working-directory: ./infra
 
       - name: Terraform Apply
         env:
@@ -55,3 +59,4 @@ jobs:
             TF_VAR_aws_region: ${{ secrets.AWS_REGION }}
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: terraform apply -auto-approve
+        working-directory: ./infra
