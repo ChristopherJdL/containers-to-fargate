@@ -9,4 +9,3 @@
 
 
 Project that deploys containers to AWS Fargate.
-
