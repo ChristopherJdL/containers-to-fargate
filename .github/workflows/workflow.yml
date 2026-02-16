@@ -25,7 +25,7 @@ jobs:
     - name: Run pytest
       run: |
         pytest -q
-  Build-Contaider-Then-Deploy:
+  Build-Container-Then-Deploy:
     needs: Run-Tests
     runs-on: ubuntu-latest
     steps:
