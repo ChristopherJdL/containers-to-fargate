@@ -1,0 +1,11 @@
+name: On merge deploy
+run-name: "On merge: Deploy"
+on:
+  push:
+    branches:
+      - main
+jobs:
+  OnMergeDeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "deploying... 🦊"

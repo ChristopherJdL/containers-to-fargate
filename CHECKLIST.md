@@ -7,3 +7,4 @@
 Flow:
 - When PR created, run tests
 - When merged on main, deploy
+- No status checks if tests not passing

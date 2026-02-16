@@ -1,0 +1,8 @@
+name: On PR run tests
+run-name: "On PR: Run tests"
+on: pull_request
+jobs:
+  OnPRRunTests:
+    runs-on: ubuntu-latest
+    steps:
+    - run: pytest
