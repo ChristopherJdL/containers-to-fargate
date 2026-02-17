@@ -19,7 +19,7 @@ I have chosen to deploy the container image to [Docker Hub](https://hub.docker.c
 This solution was developed and exercised in the AWS sandbox provided for the assignment.
 
 - The AWS account in eu-north-1 operates with a modest VPC quota, which can be approached after multiple end‑to‑end test runs of the pipeline.
-- When this quota is approached or reached, subsequent Terraform applies that would create an additional VPC can report a `VpcLimitExceeded` message.
+- When this quota is approached or reached, subsequent Terraform applies. That would create an additional VPC. A creation that can report a `VpcLimitExceeded` message.
 - For this exercise, the Terraform state is stored locally, as the sandbox account does not expose the possibility to create an S3 bucket or similar remote backend for state storage.
 
 In a typical production setting, this would normally be handled by configuring a remote backend or state (for example S3 on AWS) to preserve state across runs.
